@@ -30,7 +30,7 @@ masthead_title           : "Dimensium Blogs" # overrides the website title displ
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : giscus # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   # disqus:
   #   shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   # discourse:
@@ -43,13 +43,13 @@ comments:
   # utterances:
   #   theme                : # "github-light" (default), "github-dark"
   #   issue_term           : # "pathname" (default)
-  giscus:
-    repo_id              : "R_kgDOKEu0xA" # Shown during giscus setup at https://giscus.app
-    category_name        : "Announcements" # Full text name of the category
-    category_id          : "DIC_kwDOKEuOxM4CYb5_" # Shown during giscus setup at https://giscus.app
-    discussion_term      : "url" # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
-    theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+  # giscus: # deprecated by Promesis. Comment system moved to a single overrided HTML file.
+  #   repo_id              : "R_kgDOKEu0xA" # Shown during giscus setup at https://giscus.app
+  #   category_name        : "Announcements" # Full text name of the category
+  #   category_id          : "DIC_kwDOKEuOxM4CYb5_" # Shown during giscus setup at https://giscus.app
+  #   discussion_term      : "url" # "pathname" (default), "url", "title", "og:title"
+  #   reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+  #   theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   # staticman:
   #   branch               : # "master"
   #   endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
